@@ -5,7 +5,8 @@ const adminSchema = new mongoose.Schema(
   {
     name: {
       type: Object,
-      required: true,
+      required: true, 
+      
     },
     image: {
       type: String,
